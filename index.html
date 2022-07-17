@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" /> -->
+  <link href="./css/styles.css" rel="stylesheet" />
+  <link href="./css/login.css" rel="stylesheet" />
+  <link href="./css/weather.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/365c7f844c.js" crossorigin="anonymous"></script>
+  <title>Momentum</title>
+</head>
+<body>
+  <!--main-->
+  <div class="main" style="display:none">
+
+    <!--clock-->
+    <div class="clock-form">
+      <div class="clock"></div>
+      <span></span>
+    </div>
+
+    <!--greeting-->
+    <div class="greeting">
+      <h1></h1>
+    </div>
+
+    <!--weather-->
+    <div class="weather-form">
+      <!-- <i class="fa-solid fa-arrow-left"></i> -->
+
+      <div class="weather">
+        <img src="#"/>
+        <div class="temp">
+          <span class="numb"></span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <span class="city"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- todo list-->
+    <div class="todo-form">
+        <input type="text" placeholder="Add a new task" />
+        <ul class="task-list"></ul>
+    </div>
+
+    <!--quote-->
+    <div class="quote-form">
+      <p class="quote">A girl should be two things: who and what she wants</p>
+      <span>Coco Chanel</span>
+    </div>
+
+  </div>
+
+  <!--login form-->
+  <section class="login-form" style="display:none">
+    <h1>What is your name?</h1>
+    <input type="text"/>
+  </section>
+
+
+  <script src="./js/login.js"></script>
+  <script src="./js/background.js"></script>
+  <script src="./js/clock.js"></script>
+  <script src="./js/quote.js"></script>
+  <script src="./js/weather.js"></script>
+  <script src="./js/todo.js"></script>
+
+</body>
+</html>

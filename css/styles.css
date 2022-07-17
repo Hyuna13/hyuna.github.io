@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-form {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  font-size: 150px;
+}
+
+.greeting h1 {
+  font-size: 40px;
+  height: 80%;
+}
+
+.weather-form {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-form .weather .temp{
+  font-size: 20px;
+}
+
+.todo-form input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.todo-form {
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-form ul {
+  font-size: 20px;
+  list-style: none;
+}
+
+.todo-form button {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 24px;
+}
+
+.quote-form {
+    position: absolute;
+    bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quote-form span {
+  margin-left: 25px;
+}
+
